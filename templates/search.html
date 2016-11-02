@@ -1,0 +1,15 @@
+<ion-view view-title="Search">
+  <ion-content class="has-header has-footer">
+	
+	<div class="list" ng-repeat="restaurant in restaurantsList">
+
+		<a class="item item-thumbnail-left" href="#/index/restaurant/{{restaurant.id}}">
+		  <img src="{{restaurant.image}}">
+		  <h2>{{restaurant.name}}</h2>
+		  <p>Nine Inch Nails</p>
+		</a>
+
+	</div>
+	
+  </ion-content>
+</ion-view>

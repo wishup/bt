@@ -1,0 +1,98 @@
+.intro{
+	background-image: url(../img/intro.jpg);
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.intro .logo{
+	width:80%;
+	height:auto;
+}
+
+.intro .intro-overlay{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	z-index:1
+}
+
+.intro .intro-content{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:5;
+	vertical-align:middle;
+	text-align:center;
+	display:table;
+}
+
+.intro .intro-content .intro-cont{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.intro-lang-buttons{
+	margin-top:30px;
+	width:80%;
+	margin-left:10%;
+}
+
+.intro-lang-buttons .button{
+	width:100%;
+	margin-top:10px;
+	background-image:none;
+	background-color:rgba(0,0,0,0.5);
+	border:solid 1px rgba(255,255,255,0.5);
+	color:#fff;
+	text-transform:uppercase;
+	border-radius:0px;
+}
+
+.intro-lang-buttons .button:active, 
+.intro-lang-buttons .button:focus, 
+.intro-lang-buttons .button:active:focus, 
+.intro-lang-buttons .button:focus:active, 
+.intro-lang-buttons .button:hover{
+	background-image:none;
+	background-color:rgba(255,255,255,0.5);
+	border:solid 1px rgba(255,255,255,1);
+}
+
+.main-header{
+	background-color:rgb(223,75,6);
+}
+
+.main-header .button{
+	background-color:rgba(255,255,255, 0.3);
+	color:#fff;
+	border:none!important
+}
+
+.main-footer{
+	padding-left:0px;
+	background-color:rgb(223,75,6);
+}
+
+.main-footer .tabs{
+	background-color: rgb(223,75,6)!important;
+	border:none;
+}
+
+.button-orange{
+	background-color: rgb(223,75,6)!important;
+}
+
+.restlogo{
+	max-width:100%
+}
+
+.restname{
+	font-weight:bold;
+	color: rgb(223,75,6);
+}
